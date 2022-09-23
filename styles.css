@@ -635,7 +635,7 @@ hr {
 .feel-free {
   text-align: center;
   font-size: 20px;
-  color: var(--primary-color);
+  color: white;
   font-weight: 400;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -648,7 +648,7 @@ hr {
   font-family: "Cabin", sans-serif;
   text-align: center;
   font-size: 13px;
-  color: var(--primary-color);
+  color: white;
   height: 30px;
   padding-top: 5px;
 }
