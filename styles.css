@@ -418,7 +418,72 @@ span {
   font-size: 14px;
   font-family: "Cabin", sans-serif;
 }
+#edu-head {
+  font-family: "Josefin Sans", "Sans Serif";
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 60px;
+  letter-spacing: 1.25px;
+  font-size: 40px;
+  width: 100%;
+  padding-top: 1px;
+  margin-top: 5px;
+  color: var(--tertiary-color);
+  text-align: center;
+  padding-bottom: 40px;
+}
 
+.edu-name {
+  font-family: "Josefin Sans", "Sans Serif";
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  height: 65px;
+  width: 1400px;
+  border-radius: 15px;
+  margin: 0 auto;
+  line-height: 1.25;
+  font-weight: 500;
+  color: var(--tertiary-color);
+  padding-top: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.56);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.56);
+}
+
+@media only screen and (max-width: 1250px) {
+  .edu-name {
+    height: fit-content;
+    width: 90%;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+}
+
+.arrow {
+  text-align: center;
+  color: var(--tertiary-color);
+  font-size: 1.9rem;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+.contact-head {
+  font-family: "Josefin Sans", "Sans Serif";
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 60px;
+  letter-spacing: 1.25px;
+  font-size: 40px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  color: var(--tertiary-color);
+  text-align: center;
+}
 @media only screen and (max-width: 1250px) {
   #about-me-head {
     font-family: "Josefin Sans", "Sans Serif";
@@ -494,73 +559,48 @@ span {
     background-color: var(--primary-color);
     border-radius: 6px;
   }
-}
-#edu-head {
-  font-family: "Josefin Sans", "Sans Serif";
-  font-style: normal;
-  font-weight: bolder;
-  line-height: 60px;
-  letter-spacing: 1.25px;
-  font-size: 40px;
-  width: 100%;
-  padding-top: 1px;
-  margin-top: 5px;
-  color: var(--tertiary-color);
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-.edu-name {
-  font-family: "Josefin Sans", "Sans Serif";
-  background-color: var(--secondary-color);
-  font-size: 20px;
-  height: 65px;
-  width: 1400px;
-  border-radius: 15px;
-  margin: 0 auto;
-  line-height: 1.25;
-  font-weight: 500;
-  color: var(--tertiary-color);
-  padding-top: 10px;
-  text-align: center;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.56);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.56);
-  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.56);
-}
-
-@media only screen and (max-width: 1250px) {
-  .edu-name {
-    height: fit-content;
-    width: 90%;
-    padding: 10px 0px 10px 0px;
-    font-size: 15px;
-    border-radius: 5px;
+  #works-head {
+    font-family: "Josefin Sans", "Sans Serif";
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 60px;
+    letter-spacing: 1.25px;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    color: var(--tertiary-color);
+    text-align: center;
+  }
+  #edu-head {
+    font-family: "Josefin Sans", "Sans Serif";
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 60px;
+    letter-spacing: 1.25px;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 1px;
+    margin-top: 5px;
+    color: var(--tertiary-color);
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .contact-head {
+    font-family: "Josefin Sans", "Sans Serif";
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 60px;
+    letter-spacing: 1.25px;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    color: var(--tertiary-color);
+    text-align: center;
   }
 }
 
-.arrow {
-  text-align: center;
-  color: var(--tertiary-color);
-  font-size: 1.9rem;
-}
-
-hr {
-  width: 90%;
-  margin: 0 auto;
-}
-.contact-head {
-  font-family: "Josefin Sans", "Sans Serif";
-  font-style: normal;
-  font-weight: bolder;
-  line-height: 60px;
-  letter-spacing: 1.25px;
-  font-size: 40px;
-  width: 100%;
-  padding: 20px;
-  margin-top: 20px;
-  color: var(--tertiary-color);
-  text-align: center;
-}
 .contact {
   font-family: "Poppins", sans-serif;
   background-color: rgb(255, 255, 255);
