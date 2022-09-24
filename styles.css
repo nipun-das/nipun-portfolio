@@ -112,7 +112,7 @@ nav {
   text-decoration: none;
 }
 .nav-link:visited {
-  color: #6868d3;
+  color: none;
 }
 
 .nav-item {
